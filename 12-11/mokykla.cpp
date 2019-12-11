@@ -23,9 +23,7 @@ int main()
     const char mokiniai1[] = "mokiniai.txt";
     kiekElementu(mokytojai, mokytojai1);
     kiekElementu(mokiniai, mokiniai1);
-    mokslai mokytojai2[mokytojai], mokiniai2[mokiniai], visasSarasas[mokytojai+mokiniai];
-    int visi;
-    visi=mokytojai+mokiniai;
+    mokslai mokytojai2[mokytojai], mokiniai2[mokiniai];
     skaito(mokytojai2, mokytojai, mokytojai1);
     skaito(mokiniai2, mokiniai, mokiniai1);
     raso(mokytojai2, mokytojai, "Mokytojai\n");
